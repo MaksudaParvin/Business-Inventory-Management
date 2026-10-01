@@ -22,7 +22,7 @@ class UserSerializer(serializers.ModelSerializer):
             'last_name',
             'phone',
             'role',
-            'company',
+            # 'company',
         ]
         read_only_fields = ['id']
         extra_kwargs = {
